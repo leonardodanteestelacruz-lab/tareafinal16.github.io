@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cuerpo{
+    height: auto;
+   background-color: rgb(33, 193, 221) ;
+}
+
+.encabezado{
+   background-color: rgb(121, 228, 247, 0.8);
+    height: 65px;
+    align-items: center;
+    display: flex;;
+    justify-content: space-between;
+}
+
+.titulo{
+  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 8px;
+}
+
+.contenedor-busque{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    padding: 10px 8px;
+}
+
+.busque{
+    outline: none;
+    height: 30px;
+    border-radius: 20px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #06792c;
+    background: none;
+    font-family: fantasy;
+}
+
+.secciones{
+    padding: 10px 50px;
+    margin-left: auto;
+    display: flex;
+
+}
+.secciones li{
+    border: none;
+    margin: 10px ;
+    list-style-type:none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.buton{
+    background: none;
+    border-bottom: 2px solid #066279;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    padding: auto;
+}
+
+.texto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.cuerpo-texto{
+    margin-top: 200px;
+    padding: 20px 30px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: center;
+}
+.imgpt{
+    height: 250px;
+    width: 300px;
+}
+.texto-cuerpo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.title{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 20px;
+    display: flex;
+    margin-left: 40%;
+}
+
+.contacto{
+    background-color: rgb(107, 179, 241);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+
+}
+
+.contacto-img{
+    width: 100px;
+    padding: 0px;
+
+}
+
+
+
